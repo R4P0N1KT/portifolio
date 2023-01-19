@@ -21,17 +21,17 @@ function renderProjectDetails(i) {
   $('#next-project-btn').prop('disabled', currentProjectIndex === lastProjectIndex);
 }
 
-function selectPrevProject() {
-  if (currentProjectIndex > 0) currentProjectIndex--;
+// function selectPrevProject() {
+//   if (currentProjectIndex > 0) currentProjectIndex--;
 
-  renderProjectDetails(currentProjectIndex);
-}
+//   renderProjectDetails(currentProjectIndex);
+// }
 
-function selectNextProject() {
-  if (currentProjectIndex < 9) currentProjectIndex++;
+// function selectNextProject() {
+//   if (currentProjectIndex < 9) currentProjectIndex++;
 
-  renderProjectDetails(currentProjectIndex);
-}
+//   renderProjectDetails(currentProjectIndex);
+// }
 
 const projectRing = $('#project-ring');
 let clickStart = 0;
